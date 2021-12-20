@@ -3,6 +3,18 @@
 
 ##### By 华南理工大学 201930361111 黄灼华
 
+### application的设置
+```
+cd ./spring/src/main/resources
+vim application.properties
+i
+(按注释提示编辑）
+:wq
+vim application.yml
+i
+(按注释提示编辑）
+:wq
+```
 
 ### 后端打包放上服务器
 ```

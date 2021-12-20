@@ -27,7 +27,7 @@ npm run build
 * 两个日志记录：浏览和购买成功记录。
 * 五个数据库表：log、order、storage、user和user_storage。(已经打包在Navicat_mysql_form文件夹下，需要预先安装Navicat，右键运行sql文件即可，连接到自己的数据库，然后选择该springboot-vue.sql文件运行即可)
 
-###项目布局（不重要的部分没列出来）
+### 项目布局（不重要的部分没列出来）
 ```
 F:.
 │  list.txt

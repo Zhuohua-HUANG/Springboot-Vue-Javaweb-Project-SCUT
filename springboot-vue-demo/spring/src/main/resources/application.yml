@@ -1,0 +1,11 @@
+spring:
+  mail:
+    host: smtp.163.com #发送邮件服务器
+    username: hzh30343@163.com #发送邮件的邮箱地址
+    password: UBONIESIZEUVHGUT #客户端授权码，不是邮箱密码,网易的是自己设置的
+    properties.mail.smtp.port: 994 #465或者994
+    from: hzh30343@163.com # 发送邮件的地址，和上面username一致
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: utf-8

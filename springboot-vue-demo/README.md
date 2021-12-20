@@ -44,8 +44,9 @@ npm run build
 ## ☆ 项目布局（不重要的部分没列出来）
 ```
 F:.
-│  list.txt
-│  README.md
+│  list.txt               //完整文件结构树
+|  requirements.txt       //环境要求
+│  README.md              //本文件
 ├─Navicat_mysql_form      //mysql数据库
 │      springboot-vue.sql
 │      

@@ -5,6 +5,10 @@
 
 ## ☆ 使用步骤：
 
+### 0. 安装环境（可选）
+```
+pip install -r requirements.txt
+```
 ### 1. application的设置
 ```
 cd ./spring/src/main/resources

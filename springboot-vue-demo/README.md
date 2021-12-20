@@ -44,6 +44,8 @@ npm run build
 * 三个订单状态：提交、发货和确认收货。
 * 两个日志记录：浏览和购买成功记录。
 * 五个数据库表：log、order、storage、user和user_storage。(已经打包在Navicat_mysql_form文件夹下，需要预先安装Navicat，右键运行sql文件即可，连接到自己的数据库，然后选择该springboot-vue.sql文件运行即可)
+* 订单发货时，平台邮件发送
+* 平台自动处理资金流动
 
 ## ☆ 项目布局（不重要的部分没列出来）
 ```
@@ -136,28 +138,28 @@ F:.
     │  │  └─css
     │  │          global.css
     │  │          
-    │  ├─components        //头和侧边栏
+    │  ├─components                 //头和侧边栏
     │  │      Aside.vue
     │  │      Header.vue
     │  │      
-    │  ├─layout            //基本底
+    │  ├─layout                     //基本底
     │  │      Layout.vue
     │  │      
-    │  ├─router             //网页结构
+    │  ├─router                     //网页结构
     │  │      index.js
     │  │      
-    │  ├─store              // route 
+    │  ├─store                      // route 
     │  │      index.js
     │  │      
-    │  └─views              //前端网页
-    │          Cart.vue
-    │          Customer.vue
-    │          Log.vue
-    │          Login.vue
-    │          Order.vue
-    │          Person.vue
-    │          Register.vue
-    │          Storage.vue
-    │          User.vue
+    │  └─views                      //前端网页
+    │          Cart.vue             //购物车
+    │          Customer.vue         //顾客商品页
+    │          Log.vue              //日志查看
+    │          Login.vue            //登录
+    │          Order.vue            //订单
+    │          Person.vue           //个人主页
+    │          Register.vue         //注册
+    │          Storage.vue          //商品管理
+    │          User.vue             //用户管理
     │          
 ```

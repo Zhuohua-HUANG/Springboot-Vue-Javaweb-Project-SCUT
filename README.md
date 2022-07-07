@@ -1,7 +1,11 @@
-# Springboot-Vue-Javaweb-Project-SCUT
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/71301342/177768835-4f446d49-738d-406e-a3d4-1315e25f40b3.png" alt="Absurd" width="400">
+  <br>Absurd Shopping Mall<br>
+</h1>
 
-
-##### By 华南理工大学 201930361111 黄灼华
+<p align="center">
+A Springboot-Vue Javaweb Project. Made by Zhuohua Huang.
+</p>
 
 ## ☆ 使用步骤：
 
@@ -163,3 +167,4 @@ F:.
     │          User.vue             //用户管理
     │          
 ```
+<img

@@ -2,16 +2,25 @@
   <img src="https://user-images.githubusercontent.com/71301342/177768835-4f446d49-738d-406e-a3d4-1315e25f40b3.png" alt="Absurd" width="400">
   <br>Absurd Shopping Mall<br>
 </h1>
-
+<div align="center">
+<img src="https://img.shields.io/badge/build-passing-brightgreen"/>
+<img src="https://img.shields.io/badge/Java-1.8-blue"/>
+<img src="https://img.shields.io/badge/Springboot-2.6.1-blue"/>
+</div>
 <p align="center">
 A Springboot-Vue Javaweb Project. Made by Zhuohua Huang.
 </p>
 
 ## ☆ 使用步骤：
 
-### 0. 安装环境（可选）
+### 0. 项目运行
+ 推荐使用idea
 ```
-pip install -r requirements.txt
+cd ./springboot-vue-demo/vue
+npm install
+
+cd ./springboot-vue-demo/spring
+mvn install
 ```
 ### 1. application的设置
 ```

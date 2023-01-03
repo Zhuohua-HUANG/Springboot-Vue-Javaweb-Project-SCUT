@@ -1,7 +1,10 @@
+
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/71301342/177768835-4f446d49-738d-406e-a3d4-1315e25f40b3.png" alt="Absurd" width="400">
   <br>Absurd Shopping Mall<br>
 </h1>
+
+
 <div align="center">
 <img src="https://img.shields.io/badge/build-passing-brightgreen"/>
 <img src="https://img.shields.io/badge/Java-1.8-blue"/>
@@ -10,6 +13,25 @@
 <p align="center">
 A Springboot-Vue Javaweb Project. Made by Zhuohua Huang.
 </p>
+
+<p align="center">
+      <img width="850" src="https://user-images.githubusercontent.com/71301342/210303744-f0a7e434-fa37-4328-8000-564d6f234a2c.png" />
+</p>
+
+
+
+##  功能特性:
+* 三个角色： 管理员、顾客和商家。
+* 三个用户状态：注册、登录和注销。
+* 六个页面：商品、购物车、商品管理、订单、用户管理和日志记录。
+* 三个基本操作：增加、添加和更新。
+* 一个统计：销量统计。
+* 两个商品状态：上架和下架。
+* 三个订单状态：提交、发货和确认收货。
+* 两个日志记录：浏览和购买成功记录。
+* 五个数据库表：log、order、storage、user和user_storage。(已经打包在Navicat_mysql_form文件夹下，需要预先安装Navicat，右键运行sql文件即可，连接到自己的数据库，然后选择该springboot-vue.sql文件运行即可)
+* 订单发货时，平台邮件发送
+* 平台自动处理资金流动
 
 ##  使用步骤：
 
@@ -46,20 +68,6 @@ mvn package
 cd ./vue
 npm run build
 ```
-
-##  实现的功能:
-* 三个角色： 管理员、顾客和商家。
-* 三个用户状态：注册、登录和注销。
-* 六个页面：商品、购物车、商品管理、订单、用户管理和日志记录。
-* 三个基本操作：增加、添加和更新。
-* 一个统计：销量统计。
-* 两个商品状态：上架和下架。
-* 三个订单状态：提交、发货和确认收货。
-* 两个日志记录：浏览和购买成功记录。
-* 五个数据库表：log、order、storage、user和user_storage。(已经打包在Navicat_mysql_form文件夹下，需要预先安装Navicat，右键运行sql文件即可，连接到自己的数据库，然后选择该springboot-vue.sql文件运行即可)
-* 订单发货时，平台邮件发送
-* 平台自动处理资金流动
-
 ##  项目布局:
 ```
 F:.

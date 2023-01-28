@@ -24,23 +24,33 @@ A Springboot-Vue Javaweb Project. Made by Zhuohua Huang.
 
 
 
-##  功能特性:
-* 三个角色： 管理员、顾客和商家。
-* 三个用户状态：注册、登录和注销。
-* 六个页面：商品、购物车、商品管理、订单、用户管理和日志记录。
-* 三个基本操作：增加、添加和更新。
-* 一个统计：销量统计。
-* 两个商品状态：上架和下架。
-* 三个订单状态：提交、发货和确认收货。
-* 两个日志记录：浏览和购买成功记录。
-* 五个数据库表：log、order、storage、user和user_storage。(已经打包在Navicat_mysql_form文件夹下，需要预先安装Navicat，右键运行sql文件即可，连接到自己的数据库，然后选择该springboot-vue.sql文件运行即可)
-* 订单发货时，平台邮件发送
-* 平台自动处理资金流动
+##  Features:
+* Three roles： administrator, customers, and storeowners;
 
-##  使用步骤：
+* Three user states: registration, login, and logout;
 
-### 0. 项目运行
- 推荐使用idea
+* Six pages: Merchandise, Shopping Cart, Merchandise Management, Orders, User Management, and logging;
+
+* Three basic operations: Add, delete, and update;
+
+* One statistic: sales statistics;
+
+* Two product states: on shelves, and off shelves;
+
+* Three order states: Submit, ship, and confirm receipt;
+
+* Two log records: browsing records, and purchase success records;
+
+* Five database tables: log, order, storage, user, and user_storage. (Navicat has been packaged in the Navicat_mysql_form folder. You need to install Navicat. Right-click and run the sql file, connect to your database, and select the springboot-vue.sql file to run.);
+
+* Platform email will be sent when the order is shipped;
+
+* The platform automatically manage money flows;
+
+##  How to use：
+
+### 0. Run Project:
+Idea is recommended
 ```
 cd ./springboot-vue-demo/vue
 npm install
@@ -48,40 +58,41 @@ npm install
 cd ./springboot-vue-demo/spring
 mvn install
 ```
-### 1. application的设置
+### 1. Set Application Files
 ```
 cd ./spring/src/main/resources
 vim application.properties
 i
-(按注释提示编辑）
+(as prompted by the comments）
 :wq
 vim application.yml
 i
-(按注释提示编辑）
+(as prompted by the comments）
 :wq
 ```
 
-### 2. 后端打包放上服务器
+### 2. Package the Backend and Put on Server
 ```
 cd ./spring
 mvn package 
 ```
 
-### 3. 前端打包放上服务器
+### 3. Package the Frontend and Put on Server
 ```
 cd ./vue
 npm run build
 ```
-##  项目布局:
+##  File Tree:
 ```
 F:.
-│  list.txt               //完整文件结构树
-|  requirements.txt       //环境要求
-│  README.md              //本文件
-├─Navicat_mysql_form      //mysql数据库
+│  list.txt               //Complete file structure tree
+|  requirements.txt       //environmental requirements
+│  README.md              //this file
+│  README.zh-CN.md        //chinese version of this file
+├─Navicat_mysql_form      //mysql database
 │      springboot-vue.sql
 │      
-├─spring                    //后端代码
+├─spring                    //backend code
 │  │  .gitignore
 │  │  HELP.md
 │  │  mvnw
@@ -108,7 +119,7 @@ F:.
 │  │  │  │              │      MybatisPlusConfig.java
 │  │  │  │              │      Result.java
 │  │  │  │              │      
-│  │  │  │              ├─controller                    //控制者部分
+│  │  │  │              ├─controller                    //controllers
 │  │  │  │              │      FileController.java
 │  │  │  │              │      LogController.java
 │  │  │  │              │      MailController.java
@@ -117,14 +128,14 @@ F:.
 │  │  │  │              │      UserController.java
 │  │  │  │              │      User_StorageController.java
 │  │  │  │              │      
-│  │  │  │              ├─entity                        //javabean的实体类
+│  │  │  │              ├─entity                        //the entities of javabean
 │  │  │  │              │      Log.java
 │  │  │  │              │      Order.java
 │  │  │  │              │      Storage.java
 │  │  │  │              │      User.java
 │  │  │  │              │      User_Storage.java
 │  │  │  │              │      
-│  │  │  │              └─mapper                        //mybatis的mapper
+│  │  │  │              └─mapper                        //mappers of mybatis
 │  │  │  │                      LogMappper.java
 │  │  │  │                      OrderMapper.java
 │  │  │  │                      StorageMapper.java
@@ -132,10 +143,10 @@ F:.
 │  │  │  │                      UserStorageMapper.java
 │  │  │  │                      
 │  │  │  └─resources
-│  │  │      │  application.properties                  //数据库
-│  │  │      │  application.yml                         //邮箱
+│  │  │      │  application.properties                  //database settings
+│  │  │      │  application.yml                         //email location
 │  │  │      │  
-│  │  │      ├─files                                    //文件上传路径
+│  │  │      ├─files                                    //file upload path
 │  │  │      ├─static
 │  │  │      └─templates
 │  │  └─test
@@ -146,7 +157,7 @@ F:.
 │  │                          ApplicationTests.java
 │                         
 │                          
-└─vue                                                   //前端
+└─vue                                                   //front end
     │  
     ├─public
     │  │  favicon.ico
@@ -163,29 +174,29 @@ F:.
     │  │  └─css
     │  │          global.css
     │  │          
-    │  ├─components                 //头和侧边栏
+    │  ├─components                 //header and aside of the front end
     │  │      Aside.vue
     │  │      Header.vue
     │  │      
-    │  ├─layout                     //基本底
+    │  ├─layout                     //layout
     │  │      Layout.vue
     │  │      
-    │  ├─router                     //网页结构
+    │  ├─router                     //structure of the page
     │  │      index.js
     │  │      
     │  ├─store                      // route 
     │  │      index.js
     │  │      
-    │  └─views                      //前端网页
-    │          Cart.vue             //购物车
-    │          Customer.vue         //顾客商品页
-    │          Log.vue              //日志查看
-    │          Login.vue            //登录
-    │          Order.vue            //订单
-    │          Person.vue           //个人主页
-    │          Register.vue         //注册
-    │          Storage.vue          //商品管理
-    │          User.vue             //用户管理
+    │  └─views                      //frontend pages
+    │          Cart.vue             //shopping cart
+    │          Customer.vue         //customer merchandise page
+    │          Log.vue              //check the logs
+    │          Login.vue            //login page
+    │          Order.vue            //check orders
+    │          Person.vue           //personal page
+    │          Register.vue         //register page
+    │          Storage.vue          //commodity management
+    │          User.vue             //user management
     │          
 ```
 

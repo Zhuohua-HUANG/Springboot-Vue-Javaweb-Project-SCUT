@@ -10,6 +10,10 @@
 <img src="https://img.shields.io/badge/Java-1.8-blue"/>
 <img src="https://img.shields.io/badge/Springboot-2.6.1-blue"/>
 </div>
+<div align="center">
+
+  [English](README.md) | [简体中文](README.zh-CN.md)
+</div>
 <p align="center">
 A Springboot-Vue Javaweb Project. Made by Zhuohua Huang.
 </p>

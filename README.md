@@ -24,7 +24,7 @@ A Springboot-Vue Javaweb Project. Made by Zhuohua Huang.
 
 
 
-##  Features:
+##  Features
 * Three roles： administrator, customers, and storeowners;
 
 * Three user states: registration, login, and logout;
@@ -47,9 +47,9 @@ A Springboot-Vue Javaweb Project. Made by Zhuohua Huang.
 
 * The platform automatically manage money flows;
 
-##  How to use：
+##  How to use
 
-### 0. Run Project:
+### Step 1: Run Project
 Idea is recommended
 ```
 // open Idea "file" -> "project structure" -> set java sdk version to 1.8
@@ -59,7 +59,7 @@ npm install
 cd ./springboot-vue-demo/spring
 mvn install
 ```
-### 1. Set Application Files
+### Step 2: Set Application Files
 ```
 cd ./spring/src/main/resources
 vim application.properties
@@ -72,13 +72,13 @@ i
 :wq
 ```
 
-### 2. Package the Backend and Put on Server
+### Step 3: Package the Backend and Put on Server
 ```
 cd ./spring
 mvn package 
 ```
 
-### 3. Package the Frontend and Put on Server
+### Step 4: Package the Frontend and Put on Server
 ```
 cd ./vue
 npm run build

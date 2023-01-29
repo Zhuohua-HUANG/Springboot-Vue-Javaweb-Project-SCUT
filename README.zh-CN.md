@@ -24,7 +24,7 @@
 
 
 
-##  功能特性:
+##  功能特性
 * 三个角色： 管理员、顾客和商家。
 * 三个用户状态：注册、登录和注销。
 * 六个页面：商品、购物车、商品管理、订单、用户管理和日志记录。
@@ -37,10 +37,10 @@
 * 订单发货时，平台邮件发送
 * 平台自动处理资金流动
 
-##  使用步骤：
+##  使用步骤
 
-### 0. 项目运行
- 推荐使用idea
+### 步骤1：项目运行
+ 推荐使用Idea
 ```
 // 设置项目的  文件 -> 项目结构 -> 选择java sdk版本为1.8
 cd ./springboot-vue-demo/vue
@@ -49,7 +49,7 @@ npm install
 cd ./springboot-vue-demo/spring
 mvn install
 ```
-### 1. application的设置
+### 步骤2：application的设置
 ```
 cd ./spring/src/main/resources
 vim application.properties
@@ -62,18 +62,18 @@ i
 :wq
 ```
 
-### 2. 后端打包放上服务器
+### 步骤3：后端打包放上服务器
 ```
 cd ./spring
 mvn package 
 ```
 
-### 3. 前端打包放上服务器
+### 步骤4：前端打包放上服务器
 ```
 cd ./vue
 npm run build
 ```
-##  项目布局:
+##  项目布局
 ```
 F:.
 │  list.txt               //完整文件结构树

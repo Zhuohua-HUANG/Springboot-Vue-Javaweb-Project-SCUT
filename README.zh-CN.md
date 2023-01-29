@@ -42,6 +42,7 @@
 ### 0. 项目运行
  推荐使用idea
 ```
+// 设置项目的  文件 -> 项目结构 -> 选择java sdk版本为1.8
 cd ./springboot-vue-demo/vue
 npm install
 

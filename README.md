@@ -52,6 +52,7 @@ A Springboot-Vue Javaweb Project. Made by Zhuohua Huang.
 ### 0. Run Project:
 Idea is recommended
 ```
+// open Idea "file" -> "project structure" -> set java sdk version to 1.8
 cd ./springboot-vue-demo/vue
 npm install
 

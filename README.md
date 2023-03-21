@@ -50,7 +50,7 @@ A Springboot-Vue Javaweb Project. Made by Zhuohua Huang.
 ##  How to use
 
 ### Step 1: Run Project
-Idea is recommended
+Idea is recommended.
 ```
 // open Idea "file" -> "project structure" -> set java sdk version to 1.8
 cd ./springboot-vue-demo/vue

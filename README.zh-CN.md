@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/71301342/177768835-4f446d49-738d-406e-a3d4-1315e25f40b3.png" alt="Absurd" width="400">
-  <br>Absurd Shopping Mall<br>
+  <br>ABSURD Shopping Mall<br>
 </h1>
 
 

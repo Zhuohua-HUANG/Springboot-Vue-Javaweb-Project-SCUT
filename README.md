@@ -15,7 +15,7 @@
   [English](README.md) | [简体中文](README.zh-CN.md)
 </div>
 <p align="center">
-A Springboot-Vue Javaweb Project. Made by Zhuohua Huang.
+A Springboot-Vue Javaweb Project.
 </p>
 
 <p align="center">
